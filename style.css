@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    height: 100%;
+  }
+  
+  body {
+    min-height: 100%;
+    line-height: 1;
+    font-family: sans-serif;
+  }
+  
+  h1, h2, h4, h4, h5, h6 {
+    font-size: 100%;
+  }
+  
+  input, select, option, optgroup, textarea, button,
+  pre, code {
+    font-size: 100%;
+    font-family: inherit;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    margin-left: 4%;
+      margin-right: 4%;
+    background-color:#F5F4F5;
+  }
+
+  
+ 
+
+  .mainBlock{
+      height: 25rem;
+      
+      
+  }
+
+.header {
+    height: 5rem;
+    text-align: center;
+}
+
+.hide {
+    display:none;
+}
+
+.projectCards{
+    display:flex;
+    justify-content:space-evenly;
+    
+}
+
+.card-img-top{
+    height:10rem;
+}
+
+#jumboTitle{
+    font-family: 'Hammersmith One', sans-serif;
+    font-size:5rem;
+    color: #F5F4F5
+  }
+
+.underline{
+    text-decoration: underline #274690 .42em;
+  }
+
+  #imgPad{
+      padding-left: 4em;
+      padding-right: 4em;
+  }
+  
+.imgBoxParent{
+    background-color: #F5F4F5;
+}
+
+.cardTitle{
+    text-align:center;
+    background-color: #F5F4F5;
+    border:none;
+    padding-bottom: 1em;
+}
+
+.jumbotron {
+    background-size: cover;
+    text-align: center;
+    color: black;
+    border-radius: 0;
+    background-image:url('./assets/Images/balloon2.webp');
+    
+  }
+  
+#resume{
+    font-size: 2em;
+}
+
+.btn-light{
+    /* text-decoration: underline #274690 .42em; */
+    background-color:#F5F4F5;
+    box-shadow: 1px 1px 1px 1px #1B264F;
+}
+
+#noColor{
+    text-decoration: none;
+    color: inherit;
+}
+
+.card{
+  box-shadow: 1px 1px 1px 1px #1B264F;
+}
+
+.center{
+  text-align:center;
+  line-height:2em;
+
+}
+
+h2{
+  text-decoration: underline #274690 .42em;
+  padding-top: 2em;
+}
+
+.tech {
+
+  height: 15em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 4em;
+  
+}
+
+.iconCenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spacer {
+  height: 200px;
+  background-color: #F5F4F5
+}
+
+.footer{
+  border-top: 5px solid #274690 ;
+}
+
+.borderBlue {
+  border-top: 5px solid #274690 ;
+}
